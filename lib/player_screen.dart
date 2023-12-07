@@ -71,6 +71,10 @@ class _PlayerScreenState extends State<PlayerScreen> {
               fit: BoxFit.fitWidth,
             ),
           ),
+          const Text(
+            "Số 3: Đào tạo nhân lực chất lượng cao",
+            style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+          ),
           const Spacer(),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 8),
