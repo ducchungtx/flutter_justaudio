@@ -101,7 +101,9 @@ class _PlayerScreenState extends State<PlayerScreen> {
                               buffered: bufferedDuration,
                               timeLabelPadding: -1,
                               timeLabelTextStyle: const TextStyle(
-                                  fontSize: 14, color: Colors.black),
+                                fontSize: 14,
+                                color: Colors.black,
+                              ),
                               progressBarColor: Colors.red,
                               baseBarColor: Colors.grey[200],
                               bufferedBarColor: Colors.grey[350],
